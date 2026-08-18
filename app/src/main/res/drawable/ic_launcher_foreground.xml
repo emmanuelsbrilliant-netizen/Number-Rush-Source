@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Heavy white-ink outline logo for Number Rush -->
+    <!-- Centered within the 66dp safe area (between coordinates 21 and 87) -->
+    
+    <!-- Outline of hourglass structure -->
+    <path
+        android:pathData="M 38,32 L 70,32 M 38,76 L 70,76"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M 42,32 C 42,48 48,54 48,54 C 48,54 54,48 54,32"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M 66,32 C 66,48 60,54 60,54 C 60,54 54,48 54,32"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M 42,76 C 42,60 48,54 48,54 C 48,54 54,60 54,76"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M 66,76 C 66,60 60,54 60,54 C 60,54 54,60 54,76"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round" />
+
+    <!-- Center sand drops falling -->
+    <path
+        android:pathData="M54,46 L54,46.1 M54,53 L54,53.1 M54,60 L54,60.1"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Plus sign (+) top-left -->
+    <path
+        android:pathData="M 28,34 L 34,34 M 31,31 L 31,37"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Minus sign (-) bottom-left -->
+    <path
+        android:pathData="M 28,70 L 34,70"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Multiply sign (x) top-right -->
+    <path
+        android:pathData="M 74,31 L 80,37 M 80,31 L 74,37"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Divide sign (÷) bottom-right -->
+    <path
+        android:pathData="M 74,70 L 80,70 M 77,66 L 77,66.5 M 77,73.5 L 77,74"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+</vector>

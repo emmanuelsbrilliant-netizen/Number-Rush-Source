@@ -1,0 +1,6 @@
+{
+  "name": "Number Rush",
+  "description": "An intense, gothic-ink themed math puzzle runner with daily streaks, pro tier, and graphic novel visuals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
