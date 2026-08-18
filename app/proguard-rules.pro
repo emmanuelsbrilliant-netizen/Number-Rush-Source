@@ -16,6 +16,17 @@
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Room
+-keep class androidx.room.** { *; }
+-dontwarn androidx.room.**
+-keep class * extends androidx.room.RoomDatabase
+-keep @androidx.room.Entity class * { *; }
+-keep @androidx.room.Dao class * { *; }
+
+# Unity Ads
+-keep class com.unity3d.ads.** { *; }
+-keep interface com.unity3d.ads.** { *; }
+-keep class com.unity3d.services.** { *; }
+-keep interface com.unity3d.services.** { *; }
+-dontwarn com.unity3d.services.**
+-dontwarn com.unity3d.ads.**
